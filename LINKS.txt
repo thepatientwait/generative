@@ -1,0 +1,9 @@
+TUTES
+https://generativeartistry.com/tutorials/
+https://inconvergent.net/2019/a-tangle-of-webs/
+
+CODE/DOCUMENTATION
+https://en.wikipedia.org/wiki/Steel_Bank_Common_Lisp
+
+GITHUB
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token

@@ -1,0 +1,25 @@
+# set up vsketch
+sudo apt install git
+git clone https://github.com/abey79/vsketch
+git clone https://github.com/thepatientwait/generative.git
+cd vsketch
+apt install python3.8-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install .
+
+# import from GitHub or create new directory
+cp -r /home/mint/generative/my_sketches /home/mint/vsketch
+
+OR
+
+mkdir my_sketches
+
+cd my_sketches
+
+#set up project
+vsk init "project name"
+vsk run "project name"
+
+# save to GitHub
+cp -r /home/mint/vsketch/my_sketches /home/mint/generative/my_sketches
